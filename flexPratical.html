@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 50vh;
+            display: flex;
+            background-color: antiquewhite;
+        }
+        .col{
+            flex-grow: 1;
+        }
+        .col.left{
+            background-color: lightskyblue;
+
+        }
+        .col.right{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            width: 300px;
+            color: white;
+        }
+        .sec{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: -50px auto auto;
+        }
+        .item{
+            width: 400px;
+            padding: 30px 15px;
+            background-color: whitesmoke;
+            box-shadow: 0 0 25px #00000020;
+            text-align: center;
+        }
+
+        .secText{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            background-color: #2fb0273b;
+
+
+        }
+        .para{
+            width: 700px;
+            text-align: center;
+        }
+        .photo{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            width: 350px;
+        }
+        .img-text{
+            width: 450px;
+            padding: 0 30px;
+        }
+        .pho{
+            display: flex;
+            flex-flow: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col left"></div>
+        <div class="col right">
+            <div class="text">
+                <h1>This is Text.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad animi at blanditiis dignissimos ea, expedita iste laudantium libero minus quibusdam, quod rerum sequi? Et labore omnis possimus reiciendis tempore.</p>
+            </div>
+        </div>
+    </div>
+    <section class="sec">
+        <div class="item">
+            <h1>Item</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, aut dignissimos eligendi expedita hic possimus recusandae saepe sed totam ut. Ad deserunt eos facere fugiat incidunt iusto, neque provident rem?</p>
+        </div>
+        <div class="item">
+            <h1>Item</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, aut, consectetur delectus distinctio dolores earum, eos iure libero odit possimus quae quaerat qui quis quisquam soluta suscipit unde veritatis voluptate.</p>
+        </div>
+        <div class="item">
+            <h1>Item</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium adipisci aliquid aspernatur debitis, doloremque, et eveniet iusto laborum magnam, molestias necessitatibus odio pariatur placeat reiciendis reprehenderit repudiandae sapiente sequi.</p>
+        </div>
+    </section>
+    <section class="secText">
+        <div class="para">
+            <h1>This is Paragraph</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi, consequatur culpa cum cupiditate deleniti eum ex facere impedit laborum minima necessitatibus nesciunt nisi odit officiis praesentium quibusdam repellat soluta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto consectetur, consequatur consequuntur distinctio, dolores dolorum eaque enim hic magnam maiores minus, nesciunt nisi soluta vel? Adipisci cupiditate exercitationem praesentium?</p>
+        </div>
+    </section>
+
+    <section class="photo">
+        <img src="girl_1.jpg" class="img" alt="">
+        <div class="img-text">
+            <h1>This is photo!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cum doloribus harum laudantium nam nihil non perferendis rerum voluptatibus. Doloribus error possimus quam rerum sequi. Adipisci autem obcaecati odit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae consequuntur corporis deleniti dicta facilis labore, laborum nesciunt nobis numquam, odit quaerat. Deserunt ea modi perferendis, provident sit tempore tenetur?</p>
+        </div>
+    </section>
+
+    <section class="photo pho">
+        <img src="girl_2.jpg" class="img" alt="">
+        <div class="img-text">
+            <h1>This is photo!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cum doloribus harum laudantium nam nihil non perferendis rerum voluptatibus. Doloribus error possimus quam rerum sequi. Adipisci autem obcaecati odit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae consequuntur corporis deleniti dicta facilis labore, laborum nesciunt nobis numquam, odit quaerat. Deserunt ea modi perferendis, provident sit tempore tenetur?</p>
+        </div>
+    </section>
+
+</body>
+</html>
